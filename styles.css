@@ -138,14 +138,14 @@ ul {
 
 .quotation {
     background: #E5E7EB;
+    padding: 100px;
 }
 
 .quotation .container {
-    padding: 100px;
     display: flex;
     flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .quotation h1 {
@@ -154,4 +154,9 @@ ul {
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
+}
+
+.author h4 {
+    color: #1F2937;
+    font-size: 24px;
 }
