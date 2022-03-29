@@ -196,3 +196,21 @@ ul {
     padding: 10px;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
